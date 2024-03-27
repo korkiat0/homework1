@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg {
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.table-education-user {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 10px;
+}
+
+.table-education-user td,
+tr {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table-work {
+    margin: 10px;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.table-work td,
+tr {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.contact {
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+
+div {
+    margin: 10px;
+}
